@@ -11,7 +11,7 @@ Modern async notification client.
 **1. Clone the repo and enter the directory:**
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/farhatabbas/http_notifier_project.git
 cd http_notifier_project
 ```
 
