@@ -44,6 +44,9 @@ The server listens on `http://localhost:5000` by default. Use `--port` to change
 # Interactive: type a line and press Enter; it is sent after the interval elapses
 notify --url http://localhost:5000/notify --interval 1.0
 
+#feeds the contents of messages.txt into the notify utility to be sent
+notify --url http://localhost:5000/notify < messages.txt
+
 # Pipe a file or heredoc
 echo -e "alert: disk full\nalert: high cpu\nalert: service down" | \
   notify --url http://localhost:5000/notify --interval 0.5
